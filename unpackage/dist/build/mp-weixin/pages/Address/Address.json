@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "地址页",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-loading-page": "/uni_modules/uview-ui/components/u-loading-page/u-loading-page",
+    "u-notify": "/uni_modules/uview-ui/components/u-notify/u-notify",
+    "address-card": "/components/addressCard/addressCard"
+  }
+}

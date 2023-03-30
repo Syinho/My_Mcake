@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u--image": "/uni_modules/uview-ui/components/u--image/u--image",
+    "u-loading-icon": "/uni_modules/uview-ui/components/u-loading-icon/u-loading-icon",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "shop-cart-card": "/components/ShopCartCard/ShopCartCard",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+  }
+}

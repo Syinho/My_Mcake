@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "My-Mcake",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u-notify": "/uni_modules/uview-ui/components/u-notify/u-notify",
+    "u-loading-page": "/uni_modules/uview-ui/components/u-loading-page/u-loading-page",
+    "good-show": "/components/goodShow/goodShow",
+    "index-skeleton": "/components/IndexSkeleton/IndexSkeleton"
+  }
+}

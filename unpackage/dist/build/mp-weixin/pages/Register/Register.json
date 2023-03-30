@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "注册页",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "uni-transition": "/uni_modules/uni-transition/components/uni-transition/uni-transition",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-text": "/uni_modules/uview-ui/components/u-text/u-text",
+    "u-checkbox-group": "/uni_modules/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/uni_modules/uview-ui/components/u-checkbox/u-checkbox",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+  }
+}

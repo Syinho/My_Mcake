@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-skeleton": "/uni_modules/uview-ui/components/u-skeleton/u-skeleton"
+  }
+}

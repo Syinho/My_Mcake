@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u-loading-page": "/uni_modules/uview-ui/components/u-loading-page/u-loading-page",
+    "good-item": "/components/GoodItem/GoodItem",
+    "footer-tab": "/components/FooterTab/FooterTab"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/Index/Index",
+    "pages/Categorys/Categorys",
+    "pages/ShopCart/ShopCart",
+    "pages/Profile/Profile",
+    "pages/Login/Login",
+    "pages/Register/Register",
+    "pages/Detail/Detail",
+    "pages/OrderForm/OrderForm",
+    "pages/Address/Address",
+    "pages/MapAddress/MapAddress"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#256",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "height": "0px",
+    "list": [
+      {
+        "text": "My-Mcake",
+        "pagePath": "pages/Index/Index"
+      },
+      {
+        "text": "商品列表",
+        "pagePath": "pages/Categorys/Categorys"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/Profile/Profile"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/ShopCart/ShopCart"
+      }
+    ]
+  },
+  "usingComponents": {
+    "nav-custom": "/components/NavCustom/NavCustom",
+    "home-title": "/components/HomeTitle/HomeTitle",
+    "good-item": "/components/GoodItem/GoodItem",
+    "footer-tab": "/components/FooterTab/FooterTab"
+  }
+}

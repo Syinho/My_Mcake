@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "登录页",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-transition": "/uni_modules/uview-ui/components/u-transition/u-transition",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-line": "/uni_modules/uview-ui/components/u-line/u-line",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u-loading-page": "/uni_modules/uview-ui/components/u-loading-page/u-loading-page",
+    "u-notify": "/uni_modules/uview-ui/components/u-notify/u-notify"
+  }
+}

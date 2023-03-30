@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-line": "/uni_modules/uview-ui/components/u-line/u-line",
+    "uni-transition": "/uni_modules/uni-transition/components/uni-transition/uni-transition",
+    "u-overlay": "/uni_modules/uview-ui/components/u-overlay/u-overlay",
+    "header-menu": "/components/HeaderMenu/HeaderMenu"
+  }
+}
