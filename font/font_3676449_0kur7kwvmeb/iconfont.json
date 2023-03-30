@@ -1,0 +1,30 @@
+{
+  "id": "3676449",
+  "name": "uniApp练习项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8616415",
+      "name": "icon-article",
+      "font_class": "icon-article",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "819858",
+      "name": "index",
+      "font_class": "index",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "16619138",
+      "name": "movie",
+      "font_class": "movie",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    }
+  ]
+}

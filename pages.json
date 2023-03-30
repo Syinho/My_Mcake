@@ -1,0 +1,130 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/Index/Index",
+			"style": {
+				"navigationBarTitleText": "My-Mcake",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Categorys/Categorys",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ShopCart/ShopCart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Profile/Profile",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Login/Login",
+			"style": {
+				"navigationBarTitleText": "登录页",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Register/Register",
+			"style": {
+				"navigationBarTitleText": "注册页",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Detail/Detail",
+			"style": {
+				"navigationBarTitleText": "商品详细",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path":"pages/OrderForm/OrderForm",
+			"style": {
+				"navigationBarTitleText": "订单页",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path":"pages/Address/Address",
+			"style": {
+				"navigationBarTitleText": "地址页",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path":"pages/MapAddress/MapAddress",
+			"style":{
+				"navigationBarTitleText": "地址编辑",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#256",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"tabBar": {
+		"color": "#ccc",
+		"selectedColor": "#000",
+		"backgroundColor": "#fff",
+		"height": "0px",
+		"list": [
+			{
+				"text": "My-Mcake",
+				"pagePath": "pages/Index/Index"
+			},
+			{
+				"text": "商品列表",
+				"pagePath": "pages/Categorys/Categorys"
+			},
+
+			{
+				"text": "个人中心",
+				"pagePath": "pages/Profile/Profile"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/ShopCart/ShopCart"
+			}
+		]
+	}
+}

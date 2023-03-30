@@ -1,0 +1,201 @@
+// iconfont
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+
+/* 颜色变量 */
+
+/* 行为相关颜色 */
+$mcake-confirm: #ffe32a;
+$mcake-cancel: #888888;
+$uni-color-primary: #007aff;
+$uni-color-success: #4cd964;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+
+/* 文字基本颜色 */
+$uni-text-color: #333; //基本色
+$uni-text-color-inverse: #fff; //反色
+$uni-text-color-grey: #999; //辅助灰色，如加载更多的提示信息
+$uni-text-color-placeholder: #808080;
+$uni-text-color-disable: #c0c0c0;
+
+/* 背景颜色 */
+$uni-bg-color: #ffffff;
+$uni-bg-color-grey: #f8f8f8;
+$uni-bg-color-hover: #f1f1f1; //点击状态颜色
+$uni-bg-color-mask: rgba(0, 0, 0, 0.4); //遮罩颜色
+
+/* 边框颜色 */
+$uni-border-color: #c8c7cc;
+
+/* 尺寸变量 */
+
+/* 文字尺寸 */
+$uni-font-size-sm: 12px;
+$uni-font-size-base: 14px;
+$uni-font-size-lg: 16;
+
+/* 图片尺寸 */
+$uni-img-size-sm: 20px;
+$uni-img-size-base: 26px;
+$uni-img-size-lg: 40px;
+
+/* Border Radius */
+$uni-border-radius-sm: 2px;
+$uni-border-radius-base: 3px;
+$uni-border-radius-lg: 6px;
+$uni-border-radius-circle: 50%;
+
+/* 水平间距 */
+$uni-spacing-row-sm: 5px;
+$uni-spacing-row-base: 10px;
+$uni-spacing-row-lg: 15px;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: 4px;
+$uni-spacing-col-base: 8px;
+$uni-spacing-col-lg: 12px;
+
+/* 透明度 */
+$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
+
+/* 文章场景相关 */
+$uni-color-title: #2c405a; // 文章标题颜色
+$uni-font-size-title: 20px;
+$uni-color-subtitle: #555555; // 二级标题颜色
+$uni-font-size-subtitle: 26px;
+$uni-color-paragraph: #3f536e; // 文章段落颜色
+$uni-font-size-paragraph: 15px;
+
+/* 文字大小 */
+.fs-30 {
+	font-size: 30px !important ;
+}
+.fs-28 {
+	font-size: 28px !important ;
+}
+.fs-26 {
+	font-size: 26px !important ;
+}
+.fs-24 {
+	font-size: 24px !important ;
+}
+.fs-22 {
+	font-size: 22px !important ;
+}
+.fs-20 {
+	font-size: 20px !important ;
+}
+.fs-18 {
+	font-size: 18px !important ;
+}
+.fs-16 {
+	font-size: 16px !important ;
+}
+.fs-14 {
+	font-size: 14px !important ;
+}
+/* 文字颜色 */
+.color-9b9b {
+	color: #9b9b9b !important;
+}
+
+.color-8d8d {
+	color: #8d8d8d !important;
+}
+
+/* reset start */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+.scroll-view-container {
+	position: relative !important;
+
+	::v-deep ::-webkit-scrollbar {
+		/*滚动条整体样式*/
+		width: 2px !important;
+		height: 1px !important;
+		overflow: auto !important;
+		background: #ccc !important;
+		-webkit-appearance: auto !important;
+		appearance: auto;
+		display: block;
+		z-index: 10095 !important;
+	}
+
+	::v-deep ::-webkit-scrollbar-thumb {
+		/*滚动条里面小方块*/
+		border-radius: 10px !important;
+		box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2) !important;
+		background: #7b7979 !important;
+	}
+
+	::v-deep ::-webkit-scrollbar-track {
+		/*滚动条里面轨道*/
+		// box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2) !important;
+		// border-radius: 10px !important;
+		background: #ffffff !important;
+	}
+}
+/* 避免图片出现闪一下 */
+image {
+	will-change: transform;
+}
+
+/* reset end */
+
+/* uni.scss */
+@import '@/uni_modules/uview-ui/theme.scss';
+
+// 混入
+@mixin bottomLine {
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 1px;
+		// background-color: #ebebed;
+		background-color: #ccc;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%) scaleY(0.5);
+	}
+}
+
+// colorUi 样式改写
+
+
+
+
+ 
